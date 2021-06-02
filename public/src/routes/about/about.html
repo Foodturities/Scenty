@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>About</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content fullscreen class="ion-padding" scroll-y="false">
+  <ion-slides pager="true">
+    <ion-slide>
+      <ion-card>
+        <img
+          src="https://images.madeiramadeira.com.br/product/images/39150880-adesivo-parede-paisagem-lago-montanhas-natureza-gg392prd3uniu7iyx7upl-179-1-800x729.jpg"
+        />
+        <ion-card-header>
+          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+          <ion-card-title>Card Title</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+          Keep close to Nature's heart... and break clear away, once in awhile,
+          and climb a mountain or spend a week in the woods. Wash your spirit
+          clean.
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <lottie-player
+        autoplay
+        loop
+        mode="normal"
+        src="https://assets4.lottiefiles.com/packages/lf20_cq2ykkjy.json"
+      >
+      </lottie-player>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-router-link color="dark" href="#">Back</ion-router-link>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

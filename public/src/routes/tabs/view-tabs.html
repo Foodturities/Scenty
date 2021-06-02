@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Tabs</ion-title>
+
+    <ion-router-link slot="end" href="#">
+      <ion-button id="btnAlert">
+        <ion-icon name="close-outline"></ion-icon>
+      </ion-button>
+    </ion-router-link>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <!--TABS-->
+  <ion-tabs>
+    <ion-tab tab="tab-info" component="tab-info"></ion-tab>
+    <ion-tab tab="tab-related" component="tab-related"></ion-tab>
+
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="tab-related" selected="true">
+        <ion-icon name="bandage-outline"></ion-icon>
+        <ion-label>Related</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="tab-info">
+        <ion-icon name="chatbubbles-outline"></ion-icon>
+        <ion-label>Info</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-content>
