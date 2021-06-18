@@ -16,6 +16,7 @@
         <!-- ROUTER -->
         <ion-router use-hash="true">
           <ion-route url="/" component="view-home"></ion-route>
+          <ion-route url="/contacts" component="view-contacts"></ion-route>
           <ion-route url="/about" component="view-about"></ion-route>
           <ion-route component="view-tabs">
             <ion-route url="/tabs/tab-related" component="tab-info"></ion-route>
@@ -40,6 +41,10 @@
                 <ion-item href="about">
                   <ion-icon name="information-circle" slot="start"></ion-icon>
                   <ion-label>About</ion-label>
+                </ion-item>
+                <ion-item href="/contacts">
+                  <ion-icon name="call" slot="start"></ion-icon>
+                  <ion-label>Contacts</ion-label>
                 </ion-item>
                 <ion-item href="/tabs/tab-related">
                   <ion-icon name="apps-outline" slot="start"></ion-icon>
